@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/scripts/desktop.sql
+  - include:
+      file: db/changelog/scripts/laptop.sql
+  - include:
+      file: db/changelog/scripts/hardDrive.sql
+  - include:
+      file: db/changelog/scripts/monitor.sql
